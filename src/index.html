@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- Quiz Start Screen -->
+      <div class="quiz__start" id="quiz__start-screen">
+        <h1>Quiz about Maison Margiela</h1>
+        <button class="button quiz__button--start" id="start__button">
+          Start Quiz
+        </button>
+      </div>
+      <!-- Quiz Container -->
+      <div class="quiz__container" id="quiz__container">
+        <!-- Quiz Progress -->
+        <div class="quiz__container--progress">
+          <div class="quiz__container--progress-bar">
+            <div
+              class="quiz__container--progress-bar-fill"
+              id="progress__bar-fill"
+            ></div>
+          </div>
+          <p class="quiz__progress-text" id="progress__text">Question 1 of 8</p>
+        </div>
+        <!-- Quiz Questions -->
+        <div class="quiz__container--question" id="question__container">
+          <p id="question__text"></p>
+          <div class="quiz__answer--options" id="answer__option-buttons"></div>
+        </div>
+        <button class="button button__next" id="button__next">Next</button>
+        <button class="button button__submit" id="button__submit">
+          Submit
+        </button>
+      </div>
+      <!-- Quiz End Screen -->
+      <div class="quiz__end-screen" id="end__screen">
+        <h2>Your Score: <span id="personal__score"></span></h2>
+        <button class="button button__restart" id="restart__button">
+          Restart Quiz
+        </button>
+        <button class="button button__review" id="review__button">
+          Review Answers
+        </button>
+        <div class="quiz__review" id="quiz__review"></div>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
