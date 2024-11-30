@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-green: #bcffc6;
+  --color-red: #ffc3c3;
+
+  /* Font */
+  --font-family: Helvetica, sans-serif;
+  --font-weight: 300;
+  --font-weight-bold: 700;
+  --font-size-base: 15px;
+  --font-size-title: 24px;
+
+  /* Spacing */
+  --spacing-x-small: 5px;
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 20px;
+  --spacing-x-large: 40px;
+
+  /* Shadows */
+  --shadow-heavy: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  --shadow-light: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.1));
+}
