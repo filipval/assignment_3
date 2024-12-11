@@ -9,9 +9,13 @@ To use the Quiz App, open the Netlify link (below), and click the Start Quiz but
 ## Features
 
 Buttons to transfer you through the quiz.
+
 Red and green colors for right or wrong answers.
+
 Progress bar to track progress.
+
 Review answers page to review answers.
+
 Simple, responsive user interface.
 
 ## Netlify Deployment
